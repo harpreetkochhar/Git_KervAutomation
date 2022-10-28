@@ -69,13 +69,13 @@
 <dependency>
     <groupId>ch.qos.logback</groupId>
     <artifactId>logback-core</artifactId>
-    <version>1.4.4</version>
+    <version>1.2.3</version>
 </dependency>
+
 <dependency>
     <groupId>ch.qos.logback</groupId>
     <artifactId>logback-classic</artifactId>
-    <version>1.4.4</version>
-    <scope>test</scope>
+    <version>1.2.3</version>
     <exclusions>
     <exclusion>
     <groupId>org.slf4j</groupId>
@@ -84,7 +84,7 @@
     </exclusions>
 </dependency>
 
-  </dependencies>
+ </dependencies>
 
   <build>
   <sourceDirectory>src</sourceDirectory>

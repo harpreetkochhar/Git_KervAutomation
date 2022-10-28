@@ -75,7 +75,8 @@ public class KervDigitalSteps {
 	}
 	
 	@Then("I see successful confirmation message")
-	public void i_see_successful_confirmation_message() {
-	   
+	public void i_see_successful_confirmation_message() 
+	{
+		kervDigitalHomePage.confirmationMessage();
 	}
 }
